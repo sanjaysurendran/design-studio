@@ -615,3 +615,33 @@ body.active .mscroll {
 	margin-bottom: 0;
 }
 /* Footer */
+.w3-row{
+	padding: 10px;
+}
+h1{
+			text-transform: uppercase;
+
+		}
+		p{
+			font-family: tahoma;
+
+		}
+		.btn-danger{
+			background-color: deepskyblue !important;
+			border: deepskyblue !important;
+			text-transform: uppercase;
+		}
+
+
+		@media only screen and (min-width: 991px){
+			.owl-carousel-home .owl-dots{
+				position:absolute;
+				left: 0;
+				bottom: 0;
+				margin: 0;
+				transform: rotate(-90deg);
+				transform-origin: bottom left;
+				outline: none;
+
+			}
+		}
